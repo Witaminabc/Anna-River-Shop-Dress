@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 >nul
-cd /d "D:\osPanel543\OSPanel\domains\test"
+cd /d "D:\osPanel543\OSPanel\domains\clearwp"
 
 echo 🚀 Автобэкап WordPress + Git...
 
