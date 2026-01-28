@@ -1,0 +1,24 @@
+[Dec 15 20:07:09] 
+[Dec 15 20:07:09] ==DUPLICATOR INSTALLER BOOTSTRAP v1.4.3==
+[Dec 15 20:07:09] ----------------------------------------------------
+[Dec 15 20:07:09] Installer bootstrap start
+[Dec 15 20:07:09] Manual extract found so not going to extract dup-installer dir
+[Dec 15 20:07:09] ERROR: Didn't need to extract the installer.
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/assets<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/classes<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/ctrls<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/favicon<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/lib<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/views<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-archive__[HASH].txt<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-database__[HASH].sql<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-installer-csrf__[HASH].txt<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-installer-log__[HASH].txt<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-installer-notices__[HASH].json<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-installer-state_[HASH].txt<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-scan__[HASH].json<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/index.php<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/main.installer.php<br/>
+[Dec 15 20:07:09] Set permissions of D:/osPanel543/OSPanel/domains/clearwp/dup-installer/php_error__[HASH].log<br/>
+[Dec 15 20:07:09] DONE: No detected errors so redirecting to the main installer. Main Installer URI = http://clearwp/dup-installer/main.installer.php

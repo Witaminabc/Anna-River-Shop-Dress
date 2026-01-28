@@ -1,0 +1,308 @@
+# Translation of Plugins - PageSpeed Ninja - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - PageSpeed Ninja - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-29 21:59:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - PageSpeed Ninja - Stable (latest release)\n"
+
+#: admin/partials/pagespeedninja-admin-advanced.php:101
+msgid "Your current preset."
+msgstr "Ваш текущий пресет."
+
+#: includes/options.json.php:279
+msgid "Extra caching level for optimized pages (may require more disk space)."
+msgstr "Дополнительный уровень кэширования для оптимизированных страниц (может потребоваться больше места на диске)."
+
+#: includes/options.json.php:278
+msgid "Experimental Caching"
+msgstr "Экспериментальное кэширование"
+
+#: includes/options.json.php:29
+msgid "Use libxml HTML parser"
+msgstr "Использовать libxml HTML парсер"
+
+#: includes/options.json.php:240
+msgid "Load external files for optimization and merging. Disable if you use external dynamically generated JavaScript files."
+msgstr "Загружать внешние файлы для оптимизации и слияния. Отключите, если используются внешние динамически генерируемые JavaScript файлы."
+
+#: includes/options.json.php:560
+msgid "Skip initialization scripts"
+msgstr "Пропустить скрипты инициализации"
+
+#: includes/options.json.php:228
+msgid "Load external stylesheets"
+msgstr "Загрузка внешних таблиц стилей"
+
+#: includes/options.json.php:561
+msgid "Allows to skip short inlined initialization-like scripts (e.g. &lt;script&gt;var x=&quot;zzz&quot;&lt;/script&gt;) from merging and optimization."
+msgstr "Позволяет пропустить короткие внедренные в код страницы скрипты инициализации (например, &lt;script&gt;var x=&quot;zzz&quot;&lt;/script&gt;) от слияния и оптимизации."
+
+#: includes/options.json.php:239
+msgid "Load external scripts"
+msgstr "Загружать внешние скрипты"
+
+#: includes/presets.json.php:20
+msgid "Highest level of optimizations (excluding experimental ones)."
+msgstr "Наивысший уровень оптимизации (исключая экспериментальные)."
+
+#: includes/presets.json.php:25
+msgid "All kinds of optimization, including experimental and unstable ones."
+msgstr "Все виды оптимизации, включая экспериментальные и нестабильные."
+
+#: includes/presets.json.php:15
+msgid "Optimizations that are suitable for most of websites."
+msgstr "Оптимизации, подходящие для большинства вебсайтов."
+
+#: includes/presets.json.php:10
+msgid "Optimizations that require small amount of additional disk space (i.e. disabled image processing, loading of external URLs, etc.)."
+msgstr "Оптимизации, требующие незначительного количества дополнительного дискового пространства (т.е. отключенные обработка изображений, загрузка внешних URL, и т.д.)."
+
+#: includes/presets.json.php:9
+msgid "Compact"
+msgstr "Компактный"
+
+#: includes/options.json.php:132
+msgid "Page Cache"
+msgstr "Кэш страниц"
+
+#: includes/options.json.php:118
+msgid "Static Files"
+msgstr "Статические файлы"
+
+#: admin/class-pagespeedninja-admin.php:453
+#: admin/class-pagespeedninja-admin.php:463
+#: admin/class-pagespeedninja-admin.php:472
+#: admin/class-pagespeedninja-admin.php:484
+msgid "%1s in %2s files(s)."
+msgstr "%1s в %2s файла(ов)."
+
+#: includes/options.json.php:111
+msgid "Images"
+msgstr "Изображения"
+
+#: includes/options.json.php:18
+msgid "HTML Parser"
+msgstr "Парсер HTML"
+
+#: includes/options.json.php:23
+msgid "Use Standard full HTML parser"
+msgstr "Использовать стандартный полный парсер HTML"
+
+#: includes/options.json.php:26
+msgid "Use Fast simple HTML parser"
+msgstr "Использовать быстрый упрощенный парсер HTML"
+
+#: includes/options.json.php:834 includes/options.json.php:896
+#: includes/options.json.php:970
+msgid "px"
+msgstr "px"
+
+#: includes/options.json.php:780
+msgid "GD2"
+msgstr "GD2"
+
+#: includes/options.json.php:793
+msgid "%"
+msgstr "%"
+
+#: includes/options.json.php:783
+msgid "ImageMagick"
+msgstr "ImageMagick"
+
+#: includes/options.json.php:790
+msgid "JPEG quality"
+msgstr "Качество JPEG"
+
+#: includes/options.json.php:55
+msgid "PHP"
+msgstr "PHP"
+
+#: includes/options.json.php:49
+msgid "Apache mod_rewrite+mod_headers"
+msgstr "Apache mod_rewrite+mod_headers"
+
+#. Plugin URI of the plugin
+msgid "http://pagespeed.ninja"
+msgstr "http://pagespeed.ninja"
+
+#. Description of the plugin
+msgid "The quickest and most advanced performance plugin. Make your site super fast and fix PageSpeed issues with one click! Try different settings to find the best set of options for your site."
+msgstr "Быстрый и продвинутый плагин для производительности, который поможет сделать ваш сайт более быстрым и исправит недочеты, обнаруженные сервисом PageSpeed Insights, в один клик! Попробуйте разные варианты настроек, чтобы найти наилучший вариант для вашего сайта."
+
+#: public/class-pagespeedninja-public.php:651
+msgid "Optimized with <a href=\"%s\">PageSpeed Ninja</a>"
+msgstr "Оптимизировано с помощью <a href=\"%s\">PageSpeed Ninja</a>"
+
+#: admin/partials/pagespeedninja-admin-basic.php:86
+msgid "Mobile"
+msgstr "Mobile"
+
+#: admin/partials/pagespeedninja-admin-basic.php:48
+msgid "Desktop"
+msgstr "Desktop"
+
+#: admin/partials/pagespeedninja-admin-basic.php:60
+#: admin/partials/pagespeedninja-admin-basic.php:98
+#: admin/partials/pagespeedninja-admin-basic.php:132
+msgid "Passed"
+msgstr "Отлично"
+
+#: admin/partials/pagespeedninja-admin-basic.php:57
+#: admin/partials/pagespeedninja-admin-basic.php:95
+#: admin/partials/pagespeedninja-admin-basic.php:129
+msgid "Consider Fixing"
+msgstr "Замечания"
+
+#: admin/partials/pagespeedninja-admin-basic.php:54
+#: admin/partials/pagespeedninja-admin-basic.php:92
+#: admin/partials/pagespeedninja-admin-basic.php:126
+msgid "Should Fix"
+msgstr "Нужно исправить"
+
+#: admin/partials/pagespeedninja-admin-basic.php:50
+#: admin/partials/pagespeedninja-admin-basic.php:88
+#: admin/partials/pagespeedninja-admin-basic.php:122
+msgid "Current score"
+msgstr "Текущий результат"
+
+#: admin/partials/pagespeedninja-admin-basic.php:49
+#: admin/partials/pagespeedninja-admin-basic.php:87
+#: admin/partials/pagespeedninja-admin-basic.php:121
+msgid "Original score"
+msgstr "Исходный результат"
+
+#: admin/partials/pagespeedninja-admin-advanced.php:122
+msgid "Will be implemented further."
+msgstr "Будет реализовано позже."
+
+#: admin/partials/pagespeedninja-admin-advanced.php:101
+msgid "Custom"
+msgstr "Пользовательская"
+
+#: includes/presets.json.php:24
+msgid "Experimental"
+msgstr "Экспериментальная"
+
+#: includes/presets.json.php:19
+msgid "Ultra"
+msgstr "Ультра"
+
+#: includes/presets.json.php:14
+msgid "Optimal"
+msgstr "Оптимальная"
+
+#: includes/presets.json.php:4
+msgid "Safe"
+msgstr "Безопасная"
+
+#: admin/partials/pagespeedninja-admin-advanced.php:94
+msgid "Presets"
+msgstr "Предустановка"
+
+#: admin/partials/pagespeedninja-admin-advanced.php:88
+#: admin/partials/pagespeedninja-admin-basic.php:36
+msgid "Advanced"
+msgstr "Расширенные"
+
+#: admin/partials/pagespeedninja-admin-advanced.php:87
+#: admin/partials/pagespeedninja-admin-basic.php:35 includes/options.json.php:3
+msgid "General"
+msgstr "Основные"
+
+#: admin/partials/pagespeedninja-admin-advanced.php:83
+#: admin/partials/pagespeedninja-admin-basic.php:31
+msgid "Save"
+msgstr "Сохранить"
+
+#: admin/partials/pagespeedninja-admin-advanced.php:83
+#: admin/partials/pagespeedninja-admin-basic.php:31
+msgid "Save changes"
+msgstr "Сохранить изменения"
+
+#: admin/class-pagespeedninja-admin.php:528
+#: admin/class-pagespeedninja-admin.php:574
+msgid "Excluded"
+msgstr "Исключить"
+
+#: admin/class-pagespeedninja-admin.php:527
+#: admin/class-pagespeedninja-admin.php:573
+msgid "Date added"
+msgstr "Дата добавления"
+
+#: admin/class-pagespeedninja-admin.php:526
+#: admin/class-pagespeedninja-admin.php:572
+msgid "URL"
+msgstr "URL"
+
+#: admin/class-pagespeedninja-admin.php:430
+msgid "&#x2191; Generate Above-the-fold CSS styles"
+msgstr "&#x2191; Сгенерировать Above-the-fold CSS стили"
+
+#: admin/class-pagespeedninja-admin.php:421
+msgid "(%d bytes)"
+msgstr "(%d байт)"
+
+#: admin/class-pagespeedninja-admin.php:421
+msgid "Log file:"
+msgstr "Лог-файл:"
+
+#: admin/class-pagespeedninja-admin.php:344
+#: admin/class-pagespeedninja-admin.php:364
+msgid "Configuration field doesn't exist: %s"
+msgstr "Параметр конфигурации не существует: %s"
+
+#: admin/class-pagespeedninja-admin.php:193
+msgid "Above-the-fold CSS styles have been generated. Save changes to apply. You can view and edit generated styles in Advanced settings page."
+msgstr "Были сгенерированы Above-the-fold CSS стили. Сохраните изменения, чтобы применить их. Вы можете просмотреть и отредактировать сгенерированные стили на странице Расширенных настроек."
+
+#: admin/class-pagespeedninja-admin.php:142
+msgid "Review"
+msgstr "Отзывы"
+
+#: admin/class-pagespeedninja-admin.php:141
+msgid "Get tips"
+msgstr "Советы"
+
+#: admin/class-pagespeedninja-admin.php:140
+msgid "Support"
+msgstr "Помощь"
+
+#: admin/class-pagespeedninja-admin.php:128
+msgid "Settings"
+msgstr "Настройки"
+
+#: admin/class-pagespeedninja-admin.php:94
+msgid "Note that some PageSpeed Ninja features (\"Scale large images\" and \"Remove IE conditionals\") may not be compatible with caching plugin"
+msgstr "Обратите внимание, что некоторые настройки PageSpeed Ninja (\"Scale large images\" и \"Remove IE conditionals\") могут быть несовместимы с плагинами кэширования"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: admin/class-pagespeedninja-admin.php:67
+msgid "PageSpeed Ninja"
+msgstr "PageSpeed Ninja"
+
+#: admin/class-pagespeedninja-admin.php:64
+msgid "PageSpeed Ninja Advanced Options"
+msgstr "Расширенные настройки PageSpeed Ninja"
+
+#: admin/class-pagespeedninja-admin.php:62
+msgid "PageSpeed Ninja Options"
+msgstr "Настройки PageSpeed Ninja"
+
+#. Author URI of the plugin
+msgid "https://wordpress.org/support/users/pagespeed/"
+msgstr "https://profiles.wordpress.org/pagespeed/"
+
+#: admin/class-pagespeedninja-admin.php:103
+msgid "Size of %1$s file is %2$sMb."
+msgstr "Размер файла %1$s равен %2$s Мб."
+
+#: admin/partials/pagespeedninja-admin-basic.php:120
+msgid "Usability"
+msgstr "Удобство использования"

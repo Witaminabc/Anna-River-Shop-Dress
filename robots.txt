@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /
+
+User-agent: Yandex
+
+Disallow: /
+
+host: https://rosait.ru/
