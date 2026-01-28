@@ -1,0 +1,180 @@
+.rs-17 .rs-howworks .section-title--text {
+	display: inline-block;
+	font-size: 36px;
+	font-weight: 300;
+	background-color: #fff;
+	width: auto;
+	padding: 10px;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 2;
+}
+
+.rs-17 .rs-howworks{
+	padding-top: 30px;
+	text-align: center;
+}
+.rs-17 .rs-howworks .section-title{
+	position: relative;
+	margin-top: 13px;
+	font-size: 36px;
+	font-weight: 300;
+}
+.rs-17 .rs-howworks .section-descr {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto 50px;
+}
+.rs-17 .rs-howworks .section-descr p {
+    font-size: 18px;
+    color: #616161;
+    text-align: center;
+}
+
+.rs-17 .rs-howworks .works-block{
+	margin-bottom: 43px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+	margin-left: -4px;
+}
+.rs-17 .rs-howworks .works-wrap{
+	margin: 0 auto 30px;
+	width: 129px;
+    height: 146px;
+	position: relative;
+	transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+}
+.rs-17 .rs-howworks .works-icon{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	opacity: 1;
+	transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+}
+.rs-17 .rs-howworks .works-icon-hover{
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+}
+.rs-17 .rs-howworks .works-wrap:hover .works-icon-hover{
+	opacity: 1;
+	z-index: 3;
+}
+.rs-17 .rs-howworks .works-wrap:hover .works-icon{
+	opacity: 0;
+}
+.rs-17 .rs-howworks .works-block h4 {
+    font-weight: 700;
+}
+.rs-17 .rs-howworks .works-block p{
+	width: 70%;
+	margin: 30px auto 0;
+}
+.rs-17 .rs-howworks .works-wrap.line-connector-right:after,
+.rs-17 .rs-howworks .works-wrap.line-connector-right2:after{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 262px;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    bottom: 0;
+    border: 1px dashed #c0c0c0;
+}
+.rs-17 .rs-howworks .works-item:nth-child(6n-3) .works-wrap.line-connector-right:after,
+.rs-17 .rs-howworks .works-item:nth-child(6n-2) .works-wrap.line-connector-right:after
+{
+	    width: 115px;
+		    right: -115px;
+}
+.rs-17 .rs-howworks .works-item:nth-child(4n), .rs-17 .rs-howworks .works-item:nth-child(5n), .rs-17 .rs-howworks .works-item:nth-child(6n){
+	    float: right;
+}
+.rs-17 .rs-howworks .works-block.line-connector-vertical:after{
+	content: '';
+    display: block;
+    height: 115%;
+    width: 2px;
+    position: absolute;
+    top: 185px;
+	right: 0;
+    margin: auto;
+    bottom: 0;
+    border: 1px dashed #c0c0c0;
+}
+.rs-17 .rs-howworks .works-wrap.line-connector-right:after {
+    right: -262px;
+}
+.rs-17 .rs-howworks .works-wrap.line-connector-right2:after {
+    width: 112px;
+	 right: -112px;
+}
+@media (max-width: 1199px){
+	.rs-17 .rs-howworks .works-wrap.line-connector-right2:after{
+		right: -82px;
+	}
+	.rs-17 .rs-howworks .works-block p{
+		width: 90%;
+	}
+	.rs-17 .rs-howworks .works-block.line-connector-vertical:after{
+		right: -32px;
+	}
+	.rs-17 .rs-howworks .works-wrap.line-connector-right:after {
+		right: -193px;
+	}
+	.rs-17 .rs-howworks .works-wrap.line-connector-right:after, 
+	.rs-17 .rs-howworks .works-wrap.line-connector-right2:after {
+		width: 192px;
+	}
+}
+@media (max-width: 991px){
+	.rs-17 .rs-howworks .works-wrap.line-connector-right2:after {
+		right: -48px;
+	}
+	.rs-17 .rs-howworks .works-block.line-connector-vertical:after {
+		height: 116%;
+		top: 189px;
+		right: -71px;
+	}
+	.rs-17 .rs-howworks .works-wrap.line-connector-right:after {
+		right: -120px;
+	}
+	.rs-17 .rs-howworks .works-wrap.line-connector-right:after, 
+	.rs-17 .rs-howworks .works-wrap.line-connector-right2:after {
+		width: 119px;
+	}
+}
+@media (max-width: 767px){
+	.rs-17 .rs-howworks .section-title{
+		font-size: 25px;
+	}
+	.rs-17 .rs-howworks .section-descr{
+		width: 100%;
+	}
+	.rs-17 .rs-howworks .works-wrap.line-connector-right:after,
+	.rs-17 .rs-howworks .works-wrap.line-connector-right2:after,
+	.rs-17 .rs-howworks .works-block.line-connector-vertical:after{
+		content: none;
+	}
+	.rs-17 .rs-howworks .works-block p {
+		width: 100%;
+	}
+}

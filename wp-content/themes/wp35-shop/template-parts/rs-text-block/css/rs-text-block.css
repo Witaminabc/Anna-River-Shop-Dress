@@ -1,0 +1,23 @@
+.rs-17 .rs-text-block {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.rs-17 .rs-text-block h2,
+.rs-17 .rs-text-block h1 {
+    font-size: 36px;
+    font-weight: 300;
+    background-color: #fff;
+    width: auto;
+    padding: 10px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 2;	
+    text-align: center;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+.rs-17 .rs-text-block p {
+	text-align: center;
+	line-height: 1.5;
+}
+

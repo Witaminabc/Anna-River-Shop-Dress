@@ -1,0 +1,203 @@
+.rs-17 .rs-contact-land {
+    padding-top: 130px;
+    padding-bottom: 145px;
+    position: relative;
+    z-index: 1;
+    min-height: 650px;
+}
+.rs-17 .rs-contact-land .back {
+	padding: 0 30px;
+}
+.rs-17 .rs-contact-land form input[type="text"],
+.rs-17 .rs-contact-land form input[type="tel"] {
+	-webkit-appearance: none;
+    display: inline-block;
+    width: 100%;
+    padding: 22px 15px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    color: black;
+    outline: none;
+    border-radius: 3px;
+    line-height: 15px;
+}
+.rs-17 .rs-contact-land .form-control:focus {
+	box-shadow: none;
+	border-color: transparent;
+	border: 1px solid #d9d9d9;
+}
+.rs-17 .rs-contact-land form {
+	padding: 32px 34px 4px 34px;
+	background-color: rgba(255, 255, 255, 0.83);
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0.32px rgba(0, 0, 0, 0.45);
+}
+.rs-17 .rs-contact-land .block-description {
+	margin-bottom: 22px;
+    font-size: 24px;
+    line-height: 1.2;
+    cursor: default;
+    color: white;
+}
+.rs-17 .rs-contact-land .container .row {
+	position: relative;
+}
+.rs-17 .rs-contact-land .title-block {
+    position: relative;
+    margin-top: 13px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 45px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 2px 5px rgba(0,0,0,.65);
+}
+.rs-17 .rs-contact-land .btn-block .btn-color {
+    background-color: #303b41;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.rs-17 .rs-contact-land .btn-block .btn-color:hover {
+    background-color: #1e2528;
+}
+.rs-17 .rs-contact-land .back {
+	padding: 0 30px;
+    margin: 0 17px;
+}
+.rs-17 .rs-contact-land .back h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 23px;
+    cursor: default;
+}
+.rs-17 .rs-contact-land .text-block {
+    margin-top: 20px;
+    position: relative;
+}
+.rs-17 .rs-contact-land .contact-full-form .form-group {
+    margin-bottom: 15px;
+}
+.rs-17 .rs-contact-land .contact-full-form .btn-color {
+    background-color: #303b41;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+    -webkit-transition: all .4s ease-out;
+    -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+.rs-17 .rs-contact-land .contact-full-form .btn-color:hover {
+    background-color: #1e2528;
+}
+.rs-17 .rs-contact-land .checkbox-label {
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    padding-left: 0;
+}
+.rs-17 .rs-contact-land .checkbox-label a {
+	border-bottom: 1px dashed #cfcfcf;
+	color: #fff;
+}
+.rs-17 .rs-contact-land .checkbox-label a:hover,
+.rs-17 .rs-contact-land .checkbox-label a:focus {
+    border-bottom: none;
+    text-decoration: none;
+}
+.rs-17 .rs-contact-land input::-webkit-input-placeholder, .rs-17 .rs-contact-land textarea::-webkit-input-placeholder {color:#999;}
+.rs-17 .rs-contact-land input::-moz-placeholder, .rs-17 .rs-contact-land textarea::-moz-placeholder   {color:#999;}
+.rs-17 .rs-contact-land input:-moz-placeholder, .rs-17 .rs-contact-land textarea:-moz-placeholder     {color:#999;}
+.rs-17 .rs-contact-land input:-ms-input-placeholder, .rs-17 .rs-contact-land textarea:-ms-input-placeholder  {color:#999;}
+
+.rs-17 .rs-contact-land input.error {
+	margin-bottom: 0;
+}
+.rs-17 .rs-contact-land input.error,
+.rs-17 .rs-contact-land input.error:focus {
+	border-color: #d80000;
+}
+.rs-17 .rs-contact-land label.error {
+	color: #d80000;
+	font-size: 11px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 0;
+}
+.rs-17 .rs-contact-land .checkbox-label {
+	margin-top: 4px;
+    margin-bottom: 14px;
+    color: #a6a6a6;
+    font-size: 12px;
+    text-align: center;
+    cursor: default;
+}
+.rs-17 .rs-contact-land .checkbox-label a {
+	color: inherit;
+    outline: none;
+}
+
+.rs-17 .rs-contact-land input[type="submit"] {
+	-webkit-appearance: none;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background-color: #20a052;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media (max-width: 991px){
+    .rs-17 .rs-contact-land .text-block {
+        margin-top: 0;
+    }
+    .rs-17 .rs-contact-land {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .rs-17 .rs-contact-land .text-block {
+        margin-bottom: 0px;
+    }
+    .rs-17 .rs-contact-land .btn-block {
+        text-align: center;
+    }
+    .rs-17 .rs-contact-land .back {
+        margin: 0;
+    }
+}
+@media (max-width: 767px){
+	.rs-17 .rs-contact-land .section-title{
+		font-size: 25px;
+	}
+    .rs-17 .rs-contact-land .title-block {
+        text-align: center;
+    }
+    .rs-17 .rs-contact-land .block-description {
+    	text-align: center;
+    }    
+}
+@media (max-width: 400px){
+    .rs-17 .rs-contact-land .title-block {
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .rs-17 .rs-contact-land .block-description {
+    	text-align: center;
+    }
+}
+
+

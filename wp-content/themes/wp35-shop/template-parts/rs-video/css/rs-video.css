@@ -1,0 +1,134 @@
+.rs-17 .rs-modal #video-block-full .modal-dialog {
+    max-width: 900px;
+    width: 100%;
+}
+.rs-17 .rs-modal .modal-dialog {
+    max-width: 420px;
+    margin: 0 auto;
+}
+.rs-17 .rs-modal .modal {
+    padding-top: 60px;
+}
+.rs-17 .rs-modal #video-block-full .modal-header {
+    padding: 0;
+}
+.rs-17 .rs-modal .modal-header {
+    border-bottom: 0;
+    padding: 30px 30px 0;
+}
+.rs-17 .rs-modal #video-block-full .modal-body {
+    padding: 0;
+}
+.rs-17 .rs-modal #video-block-full .close {
+    color: #fff;
+    margin-right: 0;
+    opacity: 1;
+}
+.rs-17 .rs-modal .modal .close {
+    font-size: 35px;
+    font-weight: 300;
+    margin-right: -10px;
+    margin-top: -20px;
+}
+.rs-17 .rs-modal #video-block-full .modal-content {
+    max-width: 900px;
+    box-shadow: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+
+
+.rs-17 .rs-video{
+	height: 290px;
+	background: #dbdbdb;
+	background-size: cover;
+	overflow: hidden;
+	image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+	position: relative;
+}
+.rs-17 .rs-video .container{
+	height: 290px;
+	position: relative;
+}
+.rs-17 .rs-video .video-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    max-width: 100%;
+    display: none;
+}
+.rs-17 .rs-video .section-title {
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.rs-17 .rs-video .section-title h2{
+	position: relative;
+	margin-top: 13px;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	color: #fff;
+	text-shadow: 0 2px 5px rgba(0,0,0,.65);
+}
+.rs-17 .rs-video .play-btn {
+    width: 70px;
+    height: 70px;
+    line-height: 75px;
+    background-color: #ffc107;
+	color: #fff;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .8s ease;
+	text-shadow: none;
+	margin: 0 16px;
+}
+.rs-17 .rs-video .play-btn i{
+	font-size: 28px;
+	padding-left: 5px;
+}
+.rs-17 .rs-video .play-btn:hover,
+.rs-17 .rs-video .play-btn:focus{
+	background-color: #eeb200;
+}
+@media (min-width: 992px){
+	.rs-17 .rs-video {
+		background: none;
+	}
+	.rs-17 .rs-video .video-bg {
+		display: block;
+		background: none;
+	}
+}
+@media (min-width: 768px){
+	.rs-17 .rs-video .play-btn {
+		width: 90px;
+		height: 90px;
+		line-height: 95px;
+		margin: 0 16px;
+	}
+	.rs-17 .rs-video .play-btn i{
+		font-size: 32px;
+		padding-left: 5px;
+	}
+}
+@media (max-width: 767px){
+	.rs-17 .rs-video .section-title h2{
+		font-size: 20px;
+	}
+}

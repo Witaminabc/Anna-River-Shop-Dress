@@ -1,0 +1,271 @@
+.rs-17 .rs-form .success {
+    color: green!important;
+    font-weight: bold;
+	margin-top: 10px;
+}
+
+.rs-17 .rs-form .bg-success{
+	padding: 15px;
+	border-radius: 4px;
+}
+
+.rs-17 .rs-form{
+	background: #e5e8ef;
+	background-size: cover;
+	min-height: 330px;
+	display: flex;
+	align-items: center;
+}
+.rs-17 .rs-form .form-row{
+	padding-top: 100px;
+	padding-bottom: 85px;
+}
+.rs-17 .rs-form .form-title,
+.rs-17 .rs-form .form-title h4{
+	color: #121314;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-top: 0;
+	font-size: 18px;
+}
+.rs-17 .rs-form .col-lg-left,
+.rs-17 .rs-form .col-lg-right{
+	position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+     padding-right: 15px;
+}
+.rs-17 .rs-form .col-lg-left .form-group{
+	width: 33.3333%;
+	display: block;
+	float: left;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.rs-17 .rs-form .no-padding{
+	padding: 0!important;
+}
+.rs-17 .rs-form  .form-inline .form-control{
+	width: 100%;
+	border-radius: 0;
+	height: 46px;
+	border: none;
+	border-right: 2px solid #e5e8ef;
+	box-shadow: none;
+	color: #555555;
+	background: #fff;
+	font-size: 12px;
+	font-weight: 600;
+	transition: none;
+}
+.rs-17 .rs-form  .form-inline .form-control:focus{
+	box-shadow: inset 0 0 6px #a5a5a5;
+}
+.rs-17 .rs-form  .form-control::-webkit-input-placeholder{ color: #555555;}
+.rs-17 .rs-form  .form-control::-moz-placeholder{ color: #555555;}
+.rs-17 .rs-form  .form-control:-moz-placeholder{ color: #555555;}
+.rs-17 .rs-form  .form-control:-ms-input-placeholder{ color: #555555;}
+
+.rs-17 .rs-form .col-lg-left .form-group:first-child .form-control{
+	border-radius: 5px 0 0 5px;
+}
+.rs-17 .rs-form .col-lg-left .form-group:last-child .form-control{
+	border-right: none;
+}
+.rs-17 .rs-form  .form-button{
+	width: 100%;
+	border: none;
+	outline: none;
+	color: #fff;
+	font-weight: 600;
+	height: 46px;
+	line-height: 1.1;
+	background-color: #121314;
+	border-radius: 0 5px 5px 0;
+	-webkit-transition: background-color .4s ease-in;
+    -moz-transition: background-color .4s ease-in;
+    -o-transition: background-color .4s ease-in;
+    -ms-transition: background-color .4s ease-in;
+    transition: background-color .4s ease-in;
+}
+.rs-17 .rs-form  .form-button:hover,
+.rs-17 .rs-form  .form-button:focus{
+	background-color: #26292c;
+}
+.rs-17 .rs-form  .form-button[disabled]{
+	opacity: 1;
+	background:#cd4036;
+	text-shadow: none;
+	color: rgba(255,255,255,.5);
+}
+.rs-17 .rs-form .form-group input.error,
+.rs-17 .rs-form .form-group input.error:focus{
+	border:1px solid #d80000;
+}
+.rs-17 .rs-form  .form-group input.error::-webkit-input-placeholder{ color: #d80000;}
+.rs-17 .rs-form  .form-group input.error::-moz-placeholder{ color: #d80000;}
+.rs-17 .rs-form  .form-group input.error:-moz-placeholder{ color: #d80000;}
+.rs-17 .rs-form  .form-group input.error:-ms-input-placeholder{ color: #d80000;}
+.rs-17 .rs-form .col-lg-left .form-group:last-child .form-control.error{
+	border-right:2px solid #d80000;
+}
+.rs-17 .rs-form .form-group label.error{
+	color: #fff;
+	width: 90%;
+	font-size: 13px;
+	font-weight: 400;
+	background-color: rgba(228,74,74, .8);
+	padding: 8px 15px;
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	top: 55px;
+}
+.rs-17 .rs-form .form-group label.error:before{
+	content: "\f071";
+	color: #fff;
+	padding-right: 5px;
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.rs-17 .rs-form .form-group label.error:after{
+	content: "";
+	display: block;
+	position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+	top: -7px;
+    left: 20px;
+    margin-left: -7px;
+    border-width: 0 7px 7px;
+    border-bottom-color: rgba(228,74,74, .8);
+}
+.rs-17 .rs-form .form-group .form-checkbox{
+	color: #121314;
+	margin-top: 0;
+	padding-left: 0;
+}
+.rs-17 .rs-form .form-group .checkbox-label {
+    font-size: 14px;
+    color: #121314;
+    border-bottom: 1px dashed #26292c;
+	
+}
+.rs-17 .rs-form .form-group .checkbox-label:hover,
+.rs-17 .rs-form .form-group .checkbox-label:focus {
+	text-decoration: none;
+	border-bottom: none;
+}
+.rs-17 .rs-form .form-group .agreement-check{
+	margin-right: 10px;
+}
+@media (min-width: 1200px){
+	.rs-17 .rs-form .col-lg-left,
+	.rs-17 .rs-form .col-lg-right{
+		float: left;
+		
+	}
+	.rs-17 .rs-form .col-lg-left{
+		width: 80%;
+	}
+	.rs-17 .rs-form .col-lg-right{
+		width: 20%;
+	}
+	.rs-17 .rs-form {
+		height: auto;
+		max-height: 350px;
+	}
+}
+
+@media (max-width: 991px){
+	.rs-17 .rs-form .col-lg-left .form-group:last-child .form-control{
+		border-radius: 0 5px 5px 0;
+	}
+	.rs-17 .rs-form  .form-button{
+		border-radius: 5px;
+		margin-top: 10px;
+	}
+	.rs-17 .rs-form .form-group label.error{
+		position: relative;
+		top: 10px;
+	}
+	.rs-17 .rs-form .form-title{
+		margin-top: 20px;
+	}	
+}
+@media (max-width: 480px){
+	.rs-17 .rs-form .col-lg-left .form-group{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.rs-17 .rs-form .form-group label.error{
+		width: 100%;
+	}
+	.rs-17 .rs-form  .form-button{
+		margin-top: 0
+	}
+	.rs-17 .rs-form .col-lg-left .form-group .form-control{
+		border-radius: 5px!important;
+	}
+	.rs-17 .rs-form .col-lg-left .form-group:last-child .form-control.error{
+		border-right-width:1px;
+	}
+}
+
+.rs-17 .rs-form div.wpcf7-response-output {
+	/*color: #fff;*/
+}
+
+.rs-17 .rs-form .wpcf7-response-output {
+	color: green;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #dff0d8;
+    text-align: center;
+    border: none;
+    margin: 0;
+}
+
+.rs-17 .rs-form div.wpcf7-mail-sent-ok  {
+	border: none;
+}
+
+.rs-17 .rs-form div.checkbox {
+	margin-bottom: 15px;
+}
+
+
+.rs-17 .rs-form span.wpcf7-not-valid-tip {
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.9em;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    background-color: #e44a4a;
+    position: relative;
+}
+
+.rs-17 .rs-form span.wpcf7-not-valid-tip:before {
+	content: ' ';
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	transform: rotate(45deg);
+	z-index: 2;
+	background-color: #e44a4a;
+}
+
+.rs-17 .rs-form form.wpcf7-form {
+	margin-bottom: 0;
+}

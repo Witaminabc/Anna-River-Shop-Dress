@@ -1,0 +1,75 @@
+.rs-17 .rs-offers .offers-list{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.rs-17 .rs-offers .offers-list li{
+	padding-top: 0px;
+	padding-bottom: 40px;
+}
+.rs-17 .rs-offers .offers-list li:nth-child(2){
+	/*background-color: #f9f9f9;*/
+}
+.rs-17 .rs-offers h2{
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	margin-top: 35px;
+	margin-bottom: 25px;
+	letter-spacing: 1px;
+}
+.rs-17 .rs-offers h3{
+	font-weight: 300;
+}
+.rs-17 .rs-offers h4{
+	line-height: 1.4;
+	margin-bottom: 15px;
+}
+.rs-17 .rs-offers div+h4{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-family: "Open Sans" , sans-serif;
+}
+.rs-17 .rs-offers .btn-color{
+	padding-left: 28px;
+	padding-right: 28px;
+	background-color: #fee11a;
+    font-size: 14px;
+    font-weight: 400;
+    color: #212121;
+    border: 1px solid transparent;
+    padding: 6px 18px;
+    white-space: normal;
+}
+.rs-17 .rs-offers .add-text{
+	font-size: 12px;
+	margin-top: 20px;
+}
+@media (max-width: 767px){
+	.rs-17 .rs-offers h2{
+		font-size: 25px;
+	}
+}
+.rs-17 .rs-offers .offers-list .block-about{
+	line-height: normal;
+}
+.rs-17 .rs-offers .offers-list .block-about ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.rs-17 .rs-offers .offers-list .block-about ul li{
+	padding-bottom: 0;
+}
+
+.rs-17 .rs-offers .offers-list .block-about ul li:before {
+	content: "\f00c";
+	color: #b5b5b5;
+	display: inline-block;
+	padding-right: 10px;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

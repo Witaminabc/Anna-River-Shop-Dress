@@ -1,0 +1,134 @@
+.rs-burger-menu {
+	position: relative;
+}
+.rs-burger-menu .burger-menu-key {
+    border-radius: 5px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 5px 8px;
+    background: #ffffff;
+    border: 1px solid #000;
+    cursor: pointer;
+    margin-left: 40px;
+    line-height: 10px;
+}
+.rs-burger-menu .burger-menu-key span {
+    display: inline-block;
+    width: 28px;
+    background: #222D39;
+    height: 2px;
+    margin-bottom: 0;
+}
+.rs-burger-menu .burger-menu-key:hover span {
+	width: 28px;
+}
+.rs-burger-menu .burger-menu-key span:last-child {
+	margin-bottom: 0;
+}
+.rs-burger-menu .burger-menu-key .line-1 {
+    margin-top: 0;
+}
+.rs-burger-menu .burger-menu-key .line-2 {
+    width: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.rs-burger-menu .burger-menu-key .line-3 {
+    width: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.rs-burger-menu .modal.right.fade.in .modal-dialog {
+    right: 0;
+    transition: all 0.3s ease-in-out;
+}
+.rs-burger-menu .modal.right.fade .modal-dialog {
+    right: -320px;
+    transition: all 0.3s ease-in-out;
+}
+.rs-burger-menu .modal.right .modal-dialog {
+    z-index: 100;
+    position: fixed;
+    margin: auto;
+    width: 480px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.rs-burger-menu .modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+    border-radius: 0;
+    border: none;
+    padding-left: 40px;
+}
+.rs-burger-menu .modal-header {
+    display: inline;
+    padding: 0;
+    border: none;
+}
+.rs-burger-menu .modal.right .modal-body {
+    padding: 0;
+}
+
+.rs-burger-menu .modal-header .close {
+    height: 60px;
+    width: 60px;
+    background: #5580FF;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border: none;
+    opacity: 1;
+}
+
+.rs-burger-menu .modal-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.rs-burger-menu .modal-body {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 20px;
+    color: #000;
+}
+.rs-burger-menu .modal-body ul {
+	text-transform: none;
+    padding-top: 10px;
+}
+.rs-burger-menu .modal-body ul,
+.rs-burger-menu .modal-body li {
+    list-style: outside none none;
+    list-style-type: none;	
+    margin: 0;
+}
+.rs-burger-menu .modal-body ul li a {
+	display: block;
+	text-decoration: none;
+    font-size: 16px;
+    color: #677294;
+    line-height: 24px;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+}
+.rs-burger-menu .modal-body ul li a:hover {
+    color: #FF8A73;
+}
+
+@media (max-width: 991px) {
+	.rs-burger-menu .burger-menu-key {
+		display: none;
+	}
+}
+

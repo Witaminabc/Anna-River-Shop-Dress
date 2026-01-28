@@ -1,0 +1,355 @@
+body {
+  font-family: 'Open Sans', sans-serif !important; 
+}
+.page-template-template-homepage:not(.has-post-thumbnail) .site-main {
+  padding-top: 0 !important;
+}
+.page-template-template-homepage .site-main {
+  padding-top: 0 !important;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+  background-color: #f5f5f5 !important;
+  color: #424242 !important;
+}
+
+.site-main {
+	margin-bottom: 0 !important;
+}
+
+blockquote+h2, blockquote+h3, blockquote+h4, blockquote+header h2, form+h2, form+h3, form+h4, form+header h2, ol+h2, ol+h3, ol+h4, ol+header h2, p+h2, p+h3, p+h4, p+header h2, table+h2, table+h3, table+h4, table+header h2, ul+h2, ul+h3, ul+h4, ul+header h2 {
+    margin-top: 0;
+}
+
+.rs-17 .rs-modal .modal-title {
+    color: #424242;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.rs-17 .rs-modal .modal {
+    padding-top: 60px;
+}
+
+.rs-17 .rs-modal #agreement .modal-dialog,
+.rs-17 .rs-modal #agreement-contactus .modal-dialog,
+.rs-17 .rs-modal #agreement-contact-land .modal-dialog {
+    max-width: 100%;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.rs-17 .rs-modal .modal-content {
+    background-color: #ffffff;
+}
+
+.rs-17 .rs-modal .modal-header {
+    border-bottom: 0;
+    padding: 30px 30px 0;
+}
+
+.rs-17 .rs-modal .modal .close {
+    font-size: 35px;
+    font-weight: 300;
+    margin-right: -10px;
+    margin-top: -20px;
+}
+
+.rs-17 .rs-modal .modal-body {
+    padding: 20px 30px 30px;
+}
+
+
+
+
+.rs-17 .rs-modal .modal{
+  padding-top: 60px;
+}
+.rs-17 .rs-modal .modal .close{
+  font-size: 35px;
+  font-weight: 300;
+  margin-right: -10px;
+    margin-top: -20px;
+}
+.rs-17 .rs-modal .modal-content{
+  background-color: #ffffff;
+}
+.rs-17 .rs-modal .modal-dialog{
+  max-width: 420px;
+  margin: 0 auto;
+}
+.rs-17 .rs-modal #agreement .modal-dialog,
+.rs-17 .rs-modal #agreement-contactus .modal-dialog,
+.rs-17 .rs-modal #agreement-price .modal-dialog {
+  max-width: 100%;
+  width: 768px;
+  margin: 0 auto;
+}
+.rs-17 .rs-modal .modal-header{
+  border-bottom: 0;
+  padding: 30px 30px 0;
+}
+.rs-17 .rs-modal .modal-header h3{
+  margin-bottom: 20px;
+}
+.rs-17 .rs-modal .modal-header p{
+  color: #bdbdbd;
+  margin-bottom: 0;
+}
+.rs-17 .rs-modal .modal-body{
+  padding: 20px 30px 30px;
+}
+.rs-17 .rs-modal .modal-title{
+  color: #424242;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.rs-17 .rs-modal .modal .btn-default{
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #616161;
+  border-color: #9e9e9e;
+  font-weight: 700;
+  -moz-transition: all .4s ease-out;
+    -o-transition: all .4s ease-out;
+    -ms-transition: all .4s ease-out;
+    transition: all .4s ease-out;
+}
+.rs-17 .rs-modal .modal .form-order input,.rs-17 .rs-modal .modal .form-order textarea{
+  width: 100%;
+  max-width: 100%;
+  height: 40px;
+  padding-left: 14px;
+  background-color: #fff;
+  border: 1px solid #9e9e9e;
+  border-radius: 4px;
+  /*color: #bdbdbd;*/
+  outline: none;
+  margin-bottom: 13px;
+}
+.rs-17 .rs-modal .modal .form-order .checkbox{
+  margin-top: 0;
+}
+.rs-17 .rs-modal .modal .form-order input[type="checkbox"]{
+  width: auto;
+  max-width: none;
+  height: auto;
+}
+.rs-17 .rs-modal .modal .checkbox-label{
+  font-size: 12px;
+  color: #616161;
+  border-bottom: 1px dashed #cfcfcf;
+}
+.rs-17 .rs-modal .modal .checkbox label{
+  font-size: 12px;
+  color: #616161;
+  padding-left: 0;
+}
+.rs-17 .rs-modal .modal .checkbox-label:hover,
+.rs-17 .rs-modal .modal .checkbox-label:focus{
+  border-bottom: none;
+  text-decoration: none;
+}
+.rs-17 .rs-modal .modal .form-order input:focus,
+.rs-17 .rs-modal .modal .form-order textarea:focus{
+  border-color: #01579b;
+}
+.rs-17 .rs-modal .modal .form-order textarea{
+  height: 90px;
+}
+.form-order input::-webkit-input-placeholder, .form-order textarea::-webkit-input-placeholder {color:#bdbdbd;}
+.form-order input::-moz-placeholder, .form-order textarea::-moz-placeholder   {color:#bdbdbd;}
+.form-order input:-moz-placeholder, .form-order textarea:-moz-placeholder     {color:#bdbdbd;}
+.form-order input:-ms-input-placeholder, .form-order textarea:-ms-input-placeholder  {color:#bdbdbd;}
+.rs-17 .rs-modal .modal input.error{
+  margin-bottom: 0;
+}
+.rs-17 .rs-modal .modal input.error,
+.rs-17 .rs-modal .modal input.error:focus{
+  border-color: #d80000;
+}
+.rs-17 .rs-modal .modal label.error{
+  color: #d80000;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+.rs-17 .rs-modal #video-block-full .modal-dialog{
+  max-width: 900px;
+  width: 100%;
+}
+.rs-17 .rs-modal #video-block-full .modal-content{
+  max-width: 900px;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+}
+.rs-17 .rs-modal #video-block-full .modal-header{
+  padding: 0;
+}
+.rs-17 .rs-modal #video-block-full .modal-body{
+  padding: 0;
+}
+.rs-17 .rs-modal #video-block-full .close{
+  color: #fff;
+  margin-right: 0;
+  opacity: 1;
+}
+
+.rs-17 .rs-contactus .bg-success,
+.rs-17 .rs-modal .bg-success,
+.rs-17 .rs-subscribe .bg-success,
+.rs-17 .rs-contact-land .bg-success {
+    padding: 15px;
+    border-radius: 4px;
+}
+.rs-17 .rs-contactus .success,
+.rs-17 .rs-modal .success,
+.rs-17 .rs-subscribe .success,
+.rs-17 .rs-contact-land  .success {
+    color: green!important;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .content-area, .widget-area {
+    margin-bottom: 0 !important;
+  }
+}
+
+.btn-quickview {
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #424242 !important;
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid #bdbdbd;
+    left: auto;
+    min-width: 100px;
+    max-height: 40px;
+    height: 40px !important;
+    opacity: 0;
+    white-space: normal;
+    -webkit-opacity: 0;
+    -ms-opacity: 0;
+    padding: 10px;
+    visibility: hidden;
+    width: auto;
+    display: inline-block !important;
+    z-index: 2;
+    transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    -o-transform: scale(0.75);
+    -ms-transform: scale(0.75);
+    -moz-transform: scale(0.75);
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+}
+
+form .checkbox label {
+    cursor: default;
+}
+
+form .checkbox label a {
+    cursor: pointer;
+    outline: none;
+}
+
+
+a:focus, .button:focus, .button.alt:focus, 
+button:focus, input[type="button"]:focus, 
+input[type="reset"]:focus, input[type="submit"]:focus {
+    outline-color: transparent !important;
+}
+a:focus, button:focus, input:focus, textarea:focus {
+    outline: none !important;
+}
+
+.awooc-hide {
+    display: none !important;
+}
+.demo_store a {
+    color: #fff;
+    font-weight: 400;
+    text-decoration: underline;
+}
+.demo_store {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 1em 1.41575em;
+    background-color: #3d9cd2;
+    color: #fff;
+    z-index: 9998;
+    bottom: 69px;
+}
+@media (min-width: 768px) {
+  .left-sidebar .content-area {
+    width: 100% !important;
+  } 
+  .content-area {
+    width: 100% !important;
+  }
+  .demo_store {
+    bottom: 0;
+  }
+  .storefront-handheld-footer-bar {
+    display: none;
+  }
+  .demo_store a.woocommerce-store-notice__dismiss-link {
+    background: rgba(0,0,0,.1);
+    float: right;
+    display: inline-block;
+    margin: -1em -1.41575em -1em 0;
+    padding: 1em 1.41575em;
+  }
+
+}
+.rs-17 .rs-catalog .gridlist-buttonwrap {
+	margin-left: 4px;
+}
+.rs-17 .rs-button-up {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 30px;
+    bottom: 30px;
+    width: 55px;
+    height: 55px;
+    border-radius: 4px;
+    background-color: #c3c3c3;
+    text-align: center;
+    -moz-transition: background-color .4s ease-out;
+    -o-transition: background-color .4s ease-out;
+    -ms-transition: background-color .4s ease-out;
+    transition: background-color .4s ease-out;
+    cursor: pointer;
+}
+.rs-17 .rs-button-up:before {
+    content: "\f106";
+    display: inline-block;
+    color: #fff;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 35px;
+    padding-top: 8px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+  .rs-17 .rs-button-up {
+    bottom: 75px;
+    width: 45px;
+    height: 45px;
+    left: 20px;
+  }
+  .rs-17 .rs-button-up:before {
+    padding-top: 4px;
+  }
+}

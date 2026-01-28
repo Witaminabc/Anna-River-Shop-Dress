@@ -1,0 +1,66 @@
+.rs-17 .rs-parallax-2{
+	background-size: cover;
+	background-attachment: fixed;
+}
+.rs-17 .rs-parallax-2 .container{
+	position: relative;
+}
+.rs-17 .rs-parallax-2.parallax-block{
+	background: #dbdbdb;
+	background-size: cover;
+}
+.rs-17 .rs-parallax-2.parallax-text{
+	background: #dbdbdb;
+	background-size: cover;
+}
+.rs-17 .rs-parallax-2.parallax-block .container{
+	min-height: 290px;
+}
+.rs-17 .rs-parallax-2.parallax-text .container{
+	min-height: 470px;
+}
+.rs-17 .rs-parallax-2 .parallax-title{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	color: #fff;
+}
+.rs-17 .rs-parallax-2 .parallax-title h2{
+	font-size: 36px;
+	font-weight: 400;
+	text-shadow: 0 2px 5px rgba(0,0,0,.65);
+	letter-spacing: 1.5pt;
+	color: #fff;
+}
+.rs-17 .rs-parallax-2 .parallax-title h3{
+	font-size: 24px;
+	text-shadow: 0 2px 5px rgba(0,0,0,.65);
+	letter-spacing: 1.0pt;
+	font-weight: 400;
+	margin-top: 10px;
+	color: #fff;
+}
+.rs-17 .rs-parallax-2 .quote{
+	font-size: 18px;
+	text-shadow: 0 2px 5px rgba(0,0,0,.65);
+	color: #fff;
+}
+@media (min-width: 1025px){
+	.rs-17 .rs-parallax-2{
+		background-attachment: fixed;
+	}
+}
+@media (max-width: 767px){
+	.rs-17 .rs-parallax-2 .parallax-title h2{
+		font-size: 24px;
+	}
+	.rs-17 .rs-parallax-2 .parallax-title h3{
+		font-size: 20px;
+	}
+	.rs-17 .rs-video .play-btn{
+		display: block;
+		margin: 20px auto;
+	}
+}

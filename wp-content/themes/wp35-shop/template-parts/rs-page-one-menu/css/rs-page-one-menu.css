@@ -1,0 +1,171 @@
+/*Стили для большого слайдера */
+
+#page {
+	position: relative;
+}
+.rs-one-menu  {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+}
+.rs-one-menu .rs-17 .rs-menu-cart .navbar,
+.rs-one-menu .rs-17 .rs-menu-cart .nav>li:hover, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav>li:focus, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav .open>a, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav .open>a:hover, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav .open>a:focus, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav >.current-menu-item, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav >.current-menu-item:hover, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav >.current-menu-item:focus, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav >.current-menu-ancestor, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav >.current-menu-ancestor:hover, 
+.rs-one-menu .rs-17 .rs-menu-cart .nav >.current-menu-ancestor:focus,
+.rs-one-menu .dropdown-menu {
+    /*background-color: transparent; */
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+    /*background-color: transparent;*/
+
+
+}
+.rs-one-menu .rs-17 .rs-menu-cart .affix-top .navbar,
+.rs-one-menu .rs-17 .rs-menu-cart .affix-top .nav >.current-menu-ancestor  {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.rs-one-menu .rs-17 .rs-menu-cart .nav>li>a,
+.rs-one-menu .rs-17 .rs-menu-cart .dropdown-menu>li>a,
+.rs-one-menu .rs-17 .rs-menu-cart .nav .link-btn {
+    /*color: white;	*/
+}
+
+.rs-one-menu-body .rs-17 .rs-slider .rs-slider-container,
+.rs-one-menu-body .rs-17 .rs-slider .slider-item,
+.rs-one-menu-body .rs-17 .rs-slider {
+	height: 100vh;
+	max-height: 100vh;
+}
+.rs-one-menu-body .rs-17 .rs-slider .slick-prev {
+	cursor: url(../img/prev-light.png), e-resize;;
+}
+.rs-one-menu-body .rs-17 .rs-slider .slick-next {
+	cursor: url(../img/next-light.png), e-resize;;
+}
+.rs-one-menu-body .rs-17 .rs-slider .slick-prev, 
+.rs-one-menu-body .rs-17 .rs-slider .slick-next {
+	color: transparent;
+	top: 0;
+	height: 100vh;
+	width: 25vw;
+	border: none;
+}
+.rs-one-menu-body .rs-17 .rs-slider .slick-prev:before, 
+.rs-one-menu-body .rs-17 .rs-slider .slick-next:before {
+	color: transparent;
+}
+.rs-one-menu-body .rs-17 .rs-menu-cart .dropdown-menu>li>a {
+	color: white;
+}
+
+.rs-one-menu-body .rs-17 .slider-item-img img {
+	height: 100vh;
+	max-height: 100vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media (min-width: 1800px) {
+	.rs-one-menu-body .slider-img {
+		width: auto;
+	}
+}
+.rs-one-menu-body .rs-17 .img-responsive,
+.rs-one-menu-body .rs-17 .slider-item-img img {
+	max-width: none;
+}
+.rs-one-menu-body .rs-17 .rs-slider-container  ul {
+	margin-right: 0;
+	margin-left: 0;
+}
+.rs-one-menu-body .rs-17 .slider-inner-text .btn {
+	position: relative;
+	z-index: 100;
+	opacity: 0.99;
+}
+
+/*Стили для видео слайдера */
+/*.main-video {
+	height: 100vh;
+	max-height: 100vh;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+}*/
+
+.rs-17 .rs-main-video {
+	background-color: transparent;
+	background-size: cover;
+	overflow: hidden;
+	image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    -ms-interpolation-mode: nearest-neighbor;
+	position: relative;
+	height: 950px;
+}
+section #main-video {
+	height: 950px;
+	padding-left: 0;
+	padding-right: 0;
+}
+@media (max-width: 767px), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi) {
+	section#main-video  {
+		padding-left: 0;
+		padding-right: 0;
+	}	
+}
+
+.rs-17 .rs-main-video .container {
+	height: 100vmin;
+	position: relative;
+}
+.rs-17 .rs-main-video .video-bg {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    /*min-height: 100%;*/
+    width: auto;
+    height: auto;
+    z-index: -1;
+    max-width: 100%;
+}
+.rs-17 .rs-main-video .section-title {
+    margin: 0;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.rs-17 .rs-main-video  h2{
+	z-index: 20;
+	position: relative;
+	margin-top: 13px;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+	color: #fff;
+	text-shadow: 0 2px 5px rgba(0,0,0,.65);
+}
+@media (max-width: 992px){
+	.rs-one-menu .rs-17 .rs-menu-cart .affix-top .navbar,
+	.rs-one-menu .rs-17 .rs-menu-cart .affix-top .nav >.current-menu-ancestor  {
+		background-color: rgba(255, 255, 255, 0.9);
+	}
+}

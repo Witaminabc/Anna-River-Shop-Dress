@@ -1,0 +1,170 @@
+.rs-17 .rs-carousel.main {
+    padding: 0;
+}
+.rs-17 .rs-carousel {
+    padding-top: 35px;
+    padding-bottom: 0;
+    background-color: #fff;
+}
+.rs-17 .rs-carousel .section-title {
+    position: relative;
+    margin-top: 13px;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #000;
+    text-transform: uppercase;
+}
+.rs-17 .rs-carousel .section-descr {
+    width: 65%;
+    text-align: center;
+    margin: 20px auto 40px;
+}
+.rs-17 .rs-carousel .section-descr p {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    line-height: 29px;
+    font-weight: 400;
+}
+.rs-17 .rs-carousel .owl-prev, 
+.rs-17 .rs-carousel .owl-next {
+    position: absolute;
+    top: -10px;
+    height: 39px;
+    width: 39px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid #000;
+    color: #fff;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    padding: 3px 0;
+}
+.rs-17 .rs-carousel .owl-prev i, 
+.rs-17 .rs-carousel .owl-next i {
+    color: #000;
+    font-size: 24px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.rs-17 .rs-carousel #gallery-slider {
+    margin: 70px 0 0;
+}
+.rs-17 .rs-carousel .gallery-item {
+    margin-bottom: 0;
+    overflow: hidden;
+}
+.rs-17 .rs-carousel .gallery-item a {
+    display: block;
+    background-color: #000;
+    text-decoration: none;
+    position: relative;
+    background-size: cover;
+    height: 400px;
+}
+.rs-17 .rs-carousel .gallery-item a:hover:before {
+    opacity: 1;
+}
+.rs-17 .rs-carousel .gallery-item a:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,.3);
+    transition: all .3s ease 0s;
+    -moz-transition: all .3s ease 0s;
+    -webkit-transition: all .3s ease 0s;
+    -o-transition: all .3s ease 0s;
+    -ms-transition: all .3s ease 0s;
+}
+
+.rs-17 .rs-carousel #foto-carousel-slider {
+    margin: 70px 0 0;
+}
+.rs-17 .rs-carousel .owl-prev {
+    left: 46%;
+    padding-right: 4px;
+}
+.rs-17 .rs-carousel .owl-next {
+    right: 46%;
+    padding-left: 4px;
+}
+@media (max-width: 1199px) {
+	.rs-17 .rs-carousel #foto-carousel-slider {
+	    margin: 45px 0 0;
+	}
+	.rs-17 .rs-carousel .owl-prev,
+	.rs-17 .rs-carousel .owl-next {
+    	top: -19px;
+	}
+	.rs-17 .rs-carousel .owl-next {
+		right: 45%;
+	}
+	.rs-17 .rs-carousel .owl-prev {
+    	left: 45%;		
+	}	
+}
+@media (max-width: 991px) {
+	.rs-17 .rs-carousel .owl-next {
+		right: 44%;
+	}
+	.rs-17 .rs-carousel .owl-prev {
+    	left: 44%;		
+	}		
+}
+@media (max-width: 767px) {
+	.rs-17 .rs-carousel .owl-next {
+		right: 42%;
+	}
+	.rs-17 .rs-carousel .owl-prev {
+    	left: 42%;		
+	}		
+}
+@media (max-width: 585px) {
+	.rs-17 .rs-carousel .owl-next {
+		right: 40%;
+	}
+	.rs-17 .rs-carousel .owl-prev {
+    	left: 40%;		
+	}		
+}
+@media (max-width: 400px) {
+	.rs-17 .rs-carousel .owl-next {
+		right: 37%;
+	}
+	.rs-17 .rs-carousel .owl-prev {
+    	left: 37%;		
+	}	
+}
+@media (max-width: 350px) {
+	.rs-17 .rs-carousel .owl-next {
+		right: 35%;
+	}
+	.rs-17 .rs-carousel .owl-prev {
+    	left: 35%;		
+	}		
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+.rs-17 .rs-counter {
+	background-size: cover;
+	background-attachment: fixed;
+}
+.rs-17 .rs-counter  .container{
+	position: relative;
+}
+
+.rs-17 .rs-counter .container {
+    min-height: 390px;
+}
+.rs-17 .rs-counter .timer {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.rs-17 .rs-counter .title {
+    top: 18%;
+	position: absolute;
+	transform: translateY(-50%);
+	left: 0;
+	right: 0;
+	color: #fff;
+}
+.rs-17 .rs-counter .title h2 {
+	font-size: 36px;
+	font-weight: 400;
+	text-shadow: 0 2px 5px rgba(0,0,0,.65);
+	letter-spacing: 1.5pt;
+    color: #fff;
+}
+
+@media (max-width: 1050px){
+    .rs-17 .rs-counter .timer {
+        position: relative;
+        top: 0;
+        transform: none;
+        padding: 30px 0;
+    }
+    .rs-17 .rs-counter .title {
+        position: relative;
+        transform: none;
+        padding-top: 20px;
+        margin-bottom: 10px;
+        color: #fff;
+    }
+    .rs-17 .rs-counter .timer > div {
+        min-width: 100% !important;
+    }
+    .rs-17 .rs-counter .timer > div .timer-element {
+        display: block !important;
+        width: 175px !important;
+        margin: 0 auto !important;
+        margin-top: 35px !important;
+        padding-top: 45px !important;
+    }
+    .rs-17 .rs-counter .timer > div .timer-separator {
+        display: none !important;
+    }
+    
+}
+@media (max-width: 767px){
+	.rs-17 .rs-counter .title h2{
+		font-size: 24px;
+	}
+}

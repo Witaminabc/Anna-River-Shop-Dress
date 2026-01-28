@@ -1,0 +1,69 @@
+.rs-17 .rs-tabs{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+.rs-17 .rs-tabs .section-title{
+	position: relative;
+	margin-top: 13px;
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.rs-17 .rs-tabs .section-descr {
+    width: 70%;
+    text-align: center;
+    margin: 20px auto 50px;
+}
+.rs-17 .rs-tabs .section-descr p {
+    font-size: 18px;
+    color: #616161;
+    text-align: center;
+}
+.rs-17 .rs-tabs .nav-pills{
+	margin-bottom: 30px;
+}
+.rs-17 .rs-tabs .nav-stacked>li+li{
+	margin-top: 4px;
+}
+.rs-17 .rs-tabs .nav-pills>li>a {
+    background-color: #eeeeee;
+	color: #424242;
+}
+.rs-17 .rs-tabs .nav-pills>li.active>a,
+.rs-17 .rs-tabs .nav-pills>li.active>a:hover,
+.rs-17 .rs-tabs .nav-pills>li.active>a:focus{
+	background-color: #f44336;
+	color: #fff;
+}
+.rs-17 .rs-tabs p{
+	line-height: 1.5;	
+}
+.rs-17 .rs-tabs img{
+	border: 1px solid #cdcdcd;
+    padding: 7px;
+    border-radius: 4px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.rs-17 .rs-tabs .float-right{
+	float: right;
+}
+.rs-17 .rs-tabs .float-left{
+	float: left;
+}
+.rs-17 .rs-tabs .table a{
+	color: #424242;
+}
+@media (max-width: 991px){
+	.rs-17 .rs-tabs .float-right{
+		float: none;
+	}
+}
+@media (max-width: 767px){
+	.rs-17 .rs-tabs .section-title{
+		font-size: 25px;
+	}
+	.rs-17 .rs-tabs .section-descr{
+		width: 100%;
+	}
+}

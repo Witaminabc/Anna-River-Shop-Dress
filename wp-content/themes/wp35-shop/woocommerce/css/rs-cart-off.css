@@ -1,0 +1,15 @@
+#site-header-cart {
+	display: none;
+}
+.btn.addBascetAjax {
+	display: none;
+}
+.storefront-handheld-footer-bar .cart {
+	display: none;
+}
+.single_add_to_cart_button {
+	display: none;
+}
+form.cart > .row > .col-lg-6.col-md-6.col-sm-12.col-xs-12:first-child {
+	display: none;
+}

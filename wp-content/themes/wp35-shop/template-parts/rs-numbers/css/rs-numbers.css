@@ -1,0 +1,43 @@
+.rs-17 .rs-numbers{
+	background: #dbdbdb;
+	background-size: cover;
+	min-height: 290px;
+	padding-top: 95px;
+	padding-bottom: 35px;
+}
+.rs-17 .rs-numbers img {
+	max-width: none;
+}
+.rs-17 .rs-numbers .num-item{
+	margin-bottom: 30px;
+}
+.rs-17 .rs-numbers .hidden-title {
+	font-size: 0;
+}
+.rs-17 .rs-numbers .media-left,
+.rs-17 .rs-numbers .media-right,
+.rs-17 .rs-numbers .media-body{
+	vertical-align: middle;
+}
+.rs-17 .rs-numbers .num-item .num-count{
+	color: #fff;
+	font-size: 55px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.rs-17 .rs-numbers .num-item p{
+	color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 20px;
+}
+@media (max-width: 767px){
+	.rs-17 .rs-numbers .num-item .media-body{
+		text-align: center;
+	}
+}
+@media (max-width: 480px){
+	.rs-17 .rs-numbers .num-item {
+		width: 100%;
+	}
+}
