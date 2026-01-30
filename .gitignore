@@ -45,6 +45,24 @@ wp-content/themes/*
 !wp-content/themes/storefront/
 !wp-content/themes/storefront/*
 !wp-content/themes/storefront/**/*
+# Плагины для игнорирования
+!wp-content/plugins/woocommerce-quick-view/
+!wp-content/plugins/woocommerce-grid-list-toggle/
+!wp-content/plugins/woocommerce-and-1centerprise-data-exchange/
+!wp-content/plugins/woo-checkout-field-editor-pro/
+!wp-content/plugins/search-exclude/
+!wp-content/plugins/rss-for-yandex-turbo/
+!wp-content/plugins/query-monitor/
+!wp-content/plugins/health-check/
+!wp-content/plugins/Cyr2lat/
+!wp-content/plugins/contact-form-7/
+!wp-content/plugins/classic-widgets/
+!wp-content/plugins/classic-editor/
+!wp-content/plugins/Autoptimize/
+!wp-content/plugins/art-woocommerce-order-one-click-change/
+!wp-content/plugins/art-woocommerce-order-one-click/
+!wp-content/plugins/acf-repeater/
+!wp-content/plugins/acf-gallery/
 
 # Логи
 *.log
