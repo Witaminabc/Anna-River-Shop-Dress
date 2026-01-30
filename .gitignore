@@ -30,22 +30,10 @@ wp-config.php            # Создаем из wp-config-sample.php
 wp-content/uploads/*
 !wp-content/uploads/.gitkeep  # Пустой файл для структуры
 
-# Кэш и временные файлы
-wp-content/cache/*
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/upgrade/
-wp-content/plugins/
-wp-content/updraft/
-wp-content/aiowps_backups/
-wp-content/themes/*
-!wp-content/themes/wp35-shop/
-!wp-content/themes/wp35-shop/*
-!wp-content/themes/wp35-shop/**/*
-!wp-content/themes/storefront/
-!wp-content/themes/storefront/*
-!wp-content/themes/storefront/**/*
-# Плагины для игнорирования
+# Управление плагинами
+# 1. Игнорировать все плагины по умолчанию
+wp-content/plugins/*
+# 2. ИСКЛЮЧЕНИЯ: Разрешить отслеживание кастомных плагинов (их папки)
 !wp-content/plugins/woocommerce-quick-view/
 !wp-content/plugins/woocommerce-grid-list-toggle/
 !wp-content/plugins/woocommerce-and-1centerprise-data-exchange/
@@ -63,6 +51,9 @@ wp-content/themes/*
 !wp-content/plugins/art-woocommerce-order-one-click/
 !wp-content/plugins/acf-repeater/
 !wp-content/plugins/acf-gallery/
+# 3. Игнорировать все файлы ВНУТРИ разрешённых папок, кроме .gitkeep
+wp-content/plugins/*/
+!wp-content/plugins/*/.gitkeep
 
 # Логи
 *.log
