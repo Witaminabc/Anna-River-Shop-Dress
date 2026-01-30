@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/clearwp.iml" filepath="$PROJECT_DIR$/.idea/clearwp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test/.idea/test.iml" filepath="$PROJECT_DIR$/../test/.idea/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testclone/.idea/testclone.iml" filepath="$PROJECT_DIR$/../testclone/.idea/testclone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testcopy/.idea/testcopy.iml" filepath="$PROJECT_DIR$/../testcopy/.idea/testcopy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testlast/.idea/testlast.iml" filepath="$PROJECT_DIR$/../testlast/.idea/testlast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../testperenos/.idea/testperenos.iml" filepath="$PROJECT_DIR$/../testperenos/.idea/testperenos.iml" />
+    </modules>
+  </component>
+</project>

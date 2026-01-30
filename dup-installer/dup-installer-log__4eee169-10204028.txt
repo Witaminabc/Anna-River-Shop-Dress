@@ -1,0 +1,1018 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 08:07:20
+* VERSION: 1.4.3
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.30                                |7.2.34
+OS__________________: WINNT                                 |WINNT
+CREATED_____________: 2024-03-10 20:40:28
+WP VERSION__________: 5.8.8
+DUP VERSION_________: 1.4.3
+DB__________________: 5.7.39
+DB TABLES___________: 77
+DB ROWS_____________: 88,148
+DB FILE SIZE________: 27.22MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.34 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "D:/osPanel543/OSPanel/domains/clearwp"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://clearwp/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "D:/osPanel543/OSPanel/domains/clearwp/woo_v_0_6_[HASH]_20240310204028_archive.daf"
+SIZE________________: 275.27MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 08:07:20 - RUNTIME: 0.0009 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 08:07:45
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.51 -- Build Server: 5.7.39
+FILE SIZE:	dup-database__[HASH].sql (11.07MB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[D:/osPanel543/OSPanel/domains/clearwp/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.51] is less than the build version [5.7.39].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	680
+
+wp_woo2actionscheduler_actions: (1)
+wp_woo2actionscheduler_claims: (0)
+wp_woo2actionscheduler_groups: (4)
+wp_woo2actionscheduler_logs: (3)
+wp_woo2aiowps_events: (0)
+wp_woo2aiowps_failed_logins: (5000)
+wp_woo2aiowps_global_meta: (0)
+wp_woo2aiowps_login_activity: (40)
+wp_woo2aiowps_login_lockdown: (4)
+wp_woo2aiowps_permanent_block: (0)
+wp_woo2commentmeta: (0)
+wp_woo2comments: (5)
+wp_woo2duplicator_packages: (0)
+wp_woo2ewwwio_images: (3579)
+wp_woo2ewwwio_queue: (0)
+wp_woo2failed_jobs: (0)
+wp_woo2links: (0)
+wp_woo2mailchimp_carts: (0)
+wp_woo2mdf_stat_buffer: (0)
+wp_woo2mdf_stat_tmp: (0)
+wp_woo2options: (699)
+wp_woo2postmeta: (9954)
+wp_woo2posts: (1317)
+wp_woo2psninja_amdd: (13541)
+wp_woo2psninja_amdd_cache: (0)
+wp_woo2psninja_urls: (954)
+wp_woo2queue: (0)
+wp_woo2smush_dir_images: (0)
+wp_woo2term_relationships: (259)
+wp_woo2term_taxonomy: (113)
+wp_woo2termmeta: (103)
+wp_woo2terms: (113)
+wp_woo2usermeta: (196)
+wp_woo2users: (4)
+wp_woo2wc_admin_note_actions: (144)
+wp_woo2wc_admin_notes: (110)
+wp_woo2wc_category_lookup: (23)
+wp_woo2wc_customer_lookup: (4)
+wp_woo2wc_download_log: (1)
+wp_woo2wc_order_coupon_lookup: (0)
+wp_woo2wc_order_product_lookup: (19)
+wp_woo2wc_order_stats: (9)
+wp_woo2wc_order_tax_lookup: (0)
+wp_woo2wc_product_meta_lookup: (215)
+wp_woo2wc_reserved_stock: (0)
+wp_woo2wc_tax_rate_classes: (4)
+wp_woo2wc_webhooks: (0)
+wp_woo2woocommerce_api_keys: (0)
+wp_woo2woocommerce_attribute_taxonomies: (5)
+wp_woo2woocommerce_downloadable_product_permissions: (1)
+wp_woo2woocommerce_log: (0)
+wp_woo2woocommerce_order_itemmeta: (100)
+wp_woo2woocommerce_order_items: (11)
+wp_woo2woocommerce_payment_tokenmeta: (0)
+wp_woo2woocommerce_payment_tokens: (0)
+wp_woo2woocommerce_sessions: (1)
+wp_woo2woocommerce_shipping_zone_locations: (1)
+wp_woo2woocommerce_shipping_zone_methods: (4)
+wp_woo2woocommerce_shipping_zones: (1)
+wp_woo2woocommerce_tax_rate_locations: (0)
+wp_woo2woocommerce_tax_rates: (0)
+wp_woo2wpbackitup_job_control: (0)
+wp_woo2wpbackitup_job_items: (0)
+wp_woo2wpbackitup_job_tasks: (0)
+wp_woo2wsal_metadata: (43905)
+wp_woo2wsal_occurrences: (5642)
+wp_woo2wsal_options: (19)
+wp_woo2wt_iew_action_history: (0)
+wp_woo2wt_iew_cron: (0)
+wp_woo2wt_iew_ftp: (0)
+wp_woo2wt_iew_mapping_template: (0)
+wp_woo2yoast_indexable: (79)
+wp_woo2yoast_indexable_hierarchy: (74)
+wp_woo2yoast_migrations: (23)
+wp_woo2yoast_primary_term: (29)
+wp_woo2yoast_seo_links: (8)
+wp_woo2yoast_seo_meta: (791)
+Removed '181' cache/transient rows
+
+INSERT DATA RUNTIME: 1.5994 sec.
+STEP-2 COMPLETE @ 08:07:46 - RUNTIME: 1.6145 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 08:07:50
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Магазин Одежды"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "D:/OSPanel/domains/goldauto"
+path_new______________: "D:/osPanel543/OSPanel/domains/clearwp"
+siteurl_______________: "http://clearwp"
+url_old_______________: "http://goldauto"
+url_new_______________: "http://clearwp"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_woo2actionscheduler_actions"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2actionscheduler_claims"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2actionscheduler_groups"___________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2actionscheduler_logs"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2aiowps_events"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2aiowps_failed_logins"_____________________[ROWS:  5000][PG:   2][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2aiowps_global_meta"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2aiowps_login_activity"____________________[ROWS:    40][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2aiowps_login_lockdown"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2aiowps_permanent_block"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2commentmeta"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2comments"_________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2duplicator_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2ewwwio_images"____________________________[ROWS:  3579][PG:   2][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2ewwwio_queue"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2failed_jobs"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2links"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2mailchimp_carts"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2mdf_stat_buffer"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2mdf_stat_tmp"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2options"__________________________________[ROWS:   699][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2postmeta"_________________________________[ROWS:  9954][PG:   3][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2posts"____________________________________[ROWS:  1317][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2psninja_amdd"_____________________________[ROWS: 13541][PG:   4][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2psninja_amdd_cache"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2psninja_urls"_____________________________[ROWS:   954][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2queue"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2smush_dir_images"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2term_relationships"_______________________[ROWS:   259][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2term_taxonomy"____________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2termmeta"_________________________________[ROWS:   103][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2terms"____________________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2usermeta"_________________________________[ROWS:   196][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2users"____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_admin_note_actions"____________________[ROWS:   144][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_admin_notes"___________________________[ROWS:   110][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_category_lookup"_______________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_customer_lookup"_______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_download_log"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_order_coupon_lookup"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wc_order_product_lookup"__________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_order_stats"___________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_order_tax_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wc_product_meta_lookup"___________________[ROWS:   215][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_reserved_stock"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wc_tax_rate_classes"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wc_webhooks"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2woocommerce_api_keys"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2woocommerce_attribute_taxonomies"_________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_downloadable_product_permissions"[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_log"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2woocommerce_order_itemmeta"_______________[ROWS:   100][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_order_items"__________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_payment_tokenmeta"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2woocommerce_payment_tokens"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2woocommerce_sessions"_____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_shipping_zone_locations"______[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_shipping_zone_methods"________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_shipping_zones"_______________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2woocommerce_tax_rate_locations"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2woocommerce_tax_rates"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wpbackitup_job_control"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wpbackitup_job_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wpbackitup_job_tasks"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wsal_metadata"____________________________[ROWS: 43905][PG:  13][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wsal_occurrences"_________________________[ROWS:  5642][PG:   2][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wsal_options"_____________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2wt_iew_action_history"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wt_iew_cron"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wt_iew_ftp"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2wt_iew_mapping_template"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woo2yoast_indexable"__________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2yoast_indexable_hierarchy"________________[ROWS:    74][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2yoast_migrations"_________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2yoast_primary_term"_______________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2yoast_seo_links"__________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+
+EVALUATE TABLE: "wp_woo2yoast_seo_meta"___________________________[ROWS:   791][PG:   1][SCAN:text columns]
+	SEARCH  1:"D:/OSPanel/domains/goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  2:"D:\/OSPanel\/domains\/goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  3:"D%3A%2FOSPanel%2Fdomains%2Fgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  4:"D:\OSPanel\domains\goldauto" =====================> "D:/osPanel543/OSPanel/domains/clearwp"
+	SEARCH  5:"D:\\OSPanel\\domains\\goldauto" ==================> "D:\/osPanel543\/OSPanel\/domains\/clearwp"
+	SEARCH  6:"D%3A%5COSPanel%5Cdomains%5Cgoldauto" =============> "D%3A%2FosPanel543%2FOSPanel%2Fdomains%2Fclearwp"
+	SEARCH  7:"//goldauto" ======================================> "//clearwp"
+	SEARCH  8:"\/\/goldauto" ====================================> "\/\/clearwp"
+	SEARCH  9:"%2F%2Fgoldauto" ==================================> "%2F%2Fclearwp"
+	SEARCH 10:"https://clearwp" =================================> "http://clearwp"
+	SEARCH 11:"https:\/\/clearwp" ===============================> "http:\/\/clearwp"
+	SEARCH 12:"https%3A%2F%2Fclearwp" ===========================> "http%3A%2F%2Fclearwp"
+--------------------------------------
+SCANNED:	Tables:77 	|	 Rows:87112 	|	 Cells:423476 
+UPDATED:	Tables:9 	|	 Rows:2932 	|	 Cells:3066 
+ERRORS:		0 
+RUNTIME:	0.900400 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 08:07:51 - RUNTIME: 0.9447 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

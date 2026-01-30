@@ -1,0 +1,76 @@
+2026-01-16T07:23:14+00:00 CRITICAL Cannot redeclare awooc_default_elements_item() (previously declared in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\helpers.php:31) в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 29
+
+2026-01-16T07:23:14+00:00 CRITICAL Cannot redeclare awooc_default_elements_item() (previously declared in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\helpers.php:31) в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 29
+
+2026-01-16T07:23:37+00:00 CRITICAL Cannot redeclare awooc_default_elements_item() (previously declared in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\helpers.php:31) в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 31
+
+2026-01-16T07:23:37+00:00 CRITICAL Cannot redeclare awooc_default_elements_item() (previously declared in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\helpers.php:31) в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 31
+
+2026-01-16T07:23:58+00:00 CRITICAL Cannot redeclare awooc_default_elements_item() (previously declared in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\helpers.php:31) в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 31
+
+2026-01-16T07:24:04+00:00 CRITICAL Cannot redeclare awooc_default_elements_item() (previously declared in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\helpers.php:31) в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 31
+
+2026-01-16T07:24:21+00:00 CRITICAL Cannot redeclare awooc_default_elements_item() (previously declared in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\helpers.php:31) в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 31
+
+2026-01-16T11:35:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function My_AWOOC_Extension::my_filter_ajax_callback(), 1 passed in D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php:52
+Stack trace:
+#0 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(305): My_AWOOC_Extension->my_filter_ajax_callback(Array)
+#1 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\class-awooc-ajax.php(87): apply_filters('awooc_data_ajax', Array, Object(WC_Product_Variation))
+#3 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): AWOOC_Ajax->ajax_scripts_callback('')
+#4 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filter в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 52
+
+2026-01-16T11:35:27+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function My_AWOOC_Extension::my_filter_ajax_callback(), 1 passed in D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php:52
+Stack trace:
+#0 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(305): My_AWOOC_Extension->my_filter_ajax_callback(Array)
+#1 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\class-awooc-ajax.php(87): apply_filters('awooc_data_ajax', Array, Object(WC_Product_Variation))
+#3 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): AWOOC_Ajax->ajax_scripts_callback('')
+#4 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filter в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 52
+
+2026-01-16T11:36:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function My_AWOOC_Extension::my_filter_ajax_callback(), 1 passed in D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php:53
+Stack trace:
+#0 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(305): My_AWOOC_Extension->my_filter_ajax_callback(Array)
+#1 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\class-awooc-ajax.php(87): apply_filters('awooc_data_ajax', Array, Object(WC_Product_Variation))
+#3 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): AWOOC_Ajax->ajax_scripts_callback('')
+#4 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filter в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 53
+
+2026-01-16T11:36:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function My_AWOOC_Extension::my_filter_ajax_callback(), 1 passed in D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php on line 305 and exactly 2 expected in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php:53
+Stack trace:
+#0 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(305): My_AWOOC_Extension->my_filter_ajax_callback(Array)
+#1 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\class-awooc-ajax.php(87): apply_filters('awooc_data_ajax', Array, Object(WC_Product_Variation))
+#3 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): AWOOC_Ajax->ajax_scripts_callback('')
+#4 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filter в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 53
+
+2026-01-16T11:37:58+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php:65
+Stack trace:
+#0 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): My_AWOOC_Extension->my_filter_ajax_callback(Array, NULL)
+#1 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\class-awooc-ajax.php(87): apply_filters('awooc_data_ajax', Array, Object(WC_Product_Variation))
+#3 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): AWOOC_Ajax->ajax_scripts_callback('')
+#4 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\osPanel543\OSPanel\domains\clearwp\wp-adm в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 65
+
+2026-01-16T11:40:40+00:00 CRITICAL Uncaught Error: Call to a member function get_weight() on null in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php:66
+Stack trace:
+#0 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): My_AWOOC_Extension->my_filter_ajax_callback(Array, NULL)
+#1 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\class-awooc-ajax.php(87): apply_filters('awooc_data_ajax', Array, Object(WC_Product_Variation))
+#3 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): AWOOC_Ajax->ajax_scripts_callback('')
+#4 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\osPanel543\OSPanel\domains\clearwp\wp в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 66
+
+2026-01-16T11:40:54+00:00 CRITICAL Uncaught Error: Call to a member function get_weight() on null in D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php:66
+Stack trace:
+#0 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): My_AWOOC_Extension->my_filter_ajax_callback(Array, Object(WC_Product_Variation))
+#1 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(189): WP_Hook->apply_filters(Array, Array)
+#2 D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click\includes\class-awooc-ajax.php(87): apply_filters('awooc_data_ajax', Array, Object(WC_Product_Variation))
+#3 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(303): AWOOC_Ajax->ajax_scripts_callback('')
+#4 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#5 D:\osPanel543\OSPanel\domains\clearwp\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#6 D:\osPanel543\OS в D:\osPanel543\OSPanel\domains\clearwp\wp-content\plugins\art-woocommerce-order-one-click-change\art-woocommerce-order-one-click-change.php на строке 66
+
